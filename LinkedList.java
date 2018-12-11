@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class LinkedList implements Iterable<String> {
+class LinkedList implements Iterable<String> {
     private LinkedList next;
     private String element;
 
